@@ -1,0 +1,12 @@
+ID:3
+Title:Add more news page
+Time:July. 17st, 2017
+Data:Made a python scripts for news update.
+ID:2
+Title:New Website Launched
+Time:Aug. 1st, 2017
+Data:2017 sees the redesign of our website. Take a look around and let us know what you think.
+ID:1    
+Title:Congratulation Name
+Time:July 1st, 2017
+Data:For the graduation and success defence of Ph.D. thesis

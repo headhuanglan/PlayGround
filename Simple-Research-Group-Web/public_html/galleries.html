@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>XXX's Group</title>
+  <meta name="description" content="Your Description Here" />
+  <meta name="keywords" content="Keyw1 , Keyw2" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+  <link rel="icon" href="style/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="style/favicon.ico" type="image/x-icon">
+  <script src="style/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+     <script>$("#header").load("template/header.html");</script>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+      </div>
+      <div id="content">
+      	 <script>$("#content").load("template/galleries_content.html");</script>
+      </div>
+    </div>
+    <div id="footer">
+     <script>$("#footer").load("template/footer.html");</script>
+    </div>    
+  </div>
+</body>
+<script>
+    $( document ).ready(function() {
+    $("#galleries").addClass( "selected" );
+     });
+</script>
+</html>
